@@ -1,0 +1,42 @@
+{
+  "sizes": [
+    {
+      "w": 390,
+      "h": 844,
+      "portraitOnly": true,
+      "headerPersistent": true,
+      "menuFocusEscapeAnchors": true,
+      "noOverflow": true
+    },
+    {
+      "w": 360,
+      "h": 800,
+      "portraitOnly": true,
+      "headerPersistent": true,
+      "menuFocusEscapeAnchors": true,
+      "noOverflow": true
+    },
+    {
+      "w": 430,
+      "h": 932,
+      "portraitOnly": true,
+      "headerPersistent": true,
+      "menuFocusEscapeAnchors": true,
+      "noOverflow": true
+    },
+    {
+      "w": 320,
+      "h": 568,
+      "portraitOnly": true,
+      "headerPersistent": true,
+      "menuFocusEscapeAnchors": true,
+      "noOverflow": true
+    }
+  ],
+  "errors": [],
+  "tests": [
+    "desktop portrait breakpoint switching",
+    "reduced motion makes zero sequence or manifest requests",
+    "frame failure leaves usable portrait poster and normal flow"
+  ]
+}

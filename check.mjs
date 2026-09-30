@@ -1,0 +1,7 @@
+import fs from 'node:fs';import path from 'node:path';import assert from 'node:assert/strict';
+const root=path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/,'$1'));const base=path.join(root,'dist');
+const m=JSON.parse(fs.readFileSync(path.join(base,'assets/manifest.json'),'utf8'));assert.equal(m.count,241);let bytes=0;for(let i=0;i<m.count;i++){const f=path.join(base,m.pattern.replace('{index}',String(i).padStart(4,'0')));const s=fs.statSync(f);assert(s.size>0);bytes+=s.size}assert.equal(bytes,m.totalBytes);assert(fs.existsSync(path.join(base,m.poster)));
+for(const n of ['index.html','style-tile.html']){const html=fs.readFileSync(path.join(base,n),'utf8');assert(html.includes('dir="rtl"'));for(const r of html.matchAll(/(?:src|href)="([^"#]+)"/g)){const url=r[1];if(/^(https?:|data:)/.test(url))continue;assert(fs.existsSync(path.join(base,url.split('#')[0])),url)}}
+for(const n of ['content.js','app.js','scroll.js','styles.css','details.css','fonts.css'])assert(fs.statSync(path.join(base,n)).size>0);
+const mp=path.join(base,'assets/mobile/manifest.json');let portrait=null;if(fs.existsSync(mp)){const p=JSON.parse(fs.readFileSync(mp,'utf8'));let total=0;for(let i=0;i<p.count;i++){const file=path.join(base,p.pattern.replace('{index}',String(i).padStart(4,'0')));total+=fs.statSync(file).size}assert.equal(total,p.totalBytes);assert.equal(p.width,720);assert.equal(p.height,1280);portrait={frames:p.count,bytes:total};}
+console.log(JSON.stringify({status:'passed',frames:m.count,frameBytes:bytes,dimensions:[m.width,m.height],portrait}));

@@ -1,0 +1,20 @@
+{
+  "provider": "Higgsfield MCP",
+  "folder_id": "899a97ca-fa14-4838-9a90-0f7fafed1501",
+  "portrait_image": {
+    "model": "gpt_image_2_5",
+    "job_id": "f77d5e37-9956-4a03-b664-83b3d964d8cc",
+    "reference": "e5a6016b-6389-4dd4-931b-9c7a59a2ca3b",
+    "prompt": "Create a dedicated PORTRAIT 9:16 architectural photograph for the MOBILE version of the exact Saudi cafe in the reference. Recompose, do not just crop or stretch. Preserve warm golden limestone, arch geometry, olive green doorway, recessed niches, amber sunlight and material quality. Camera farther back, viewing straight through the centered arch. All important architecture centered horizontally inside middle 60 percent. Upper 65% contains the tall arch and empty interior, with clear space for future coffee counter and tables fully visible. Bottom 30% is continuous uncluttered dark warm stone floor in soft shadow, deliberate negative space for later HTML headline and button. Top 8% quiet continuous architecture clear of important action for navigation. Full bleed environment fills every edge, no panels no borders no seams. Empty cafe ready to be furnished, no people, no letters or text or logos, no interface. Refined realistic editorial architecture, not illustration."
+  },
+  "portrait_video": {
+    "model": "seedance_2_5",
+    "job_id": "90f71a46-cbfe-4561-bfa8-8e837256f17a",
+    "start_image": "f77d5e37-9956-4a03-b664-83b3d964d8cc",
+    "duration": 10,
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "generate_audio": false,
+    "prompt": "A single continuous PORTRAIT 9:16 architectural shot of this exact Saudi cafe interior. Preserve the supplied first frame architecture, stone arches, materials, amber daylight, geometry and olive door. No cuts. Camera stays far back, furnishings all in the central upper 60 percent of the composition; keep bottom 30 percent as empty continuous stone floor, reserved for later website headline/button. 0-1 seconds gentle forward drift in empty space. 1-4.5 seconds sophisticated architectural assembly: a small travertine coffee counter and compact black-and-steel espresso machine settle at the back center below the arch, walnut cafe tables and olive chairs settle around it in upper-middle frame, leave foreground floor entirely empty. 4.5-7 seconds camera translates sideways past a close warm limestone pillar, whose detailed sharp stone surface completely fills the frame for a brief moment, concealing both source and destination. 7-10 seconds camera clears pillar revealing the same completed boutique cafe with warm pendant lights. End in a balanced portrait composition: whole counter and machine and seating are fully visible in upper-middle frame, bottom third quiet empty floor, no clipped furniture at side edges. Full-bleed continuous environment on every edge, no borders no panels no mismatched backgrounds, no black corners. Smooth slow motion suited to reversible scroll scrubbing, no camera rotation, no blur gimmick, no people, no text, no logos, no watermarks. Maintain same palette and high material realism throughout."
+  }
+}

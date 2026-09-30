@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-30T01:13:55.176Z",
+  "browser": "Edge Chromium headless",
+  "desktop": "1440x960",
+  "mobile": "390x844",
+  "ordinaryWheelForwardReverse": true,
+  "chapterCheckpoints": [
+    "02 / 04",
+    "03 / 04",
+    "04 / 04"
+  ],
+  "plannerSaveRestoreDeleteDownload": true,
+  "keyboardTabs": true,
+  "faq": true,
+  "reducedMotion": true,
+  "horizontalOverflow": false,
+  "consoleErrors": [],
+  "failedRequests": []
+}

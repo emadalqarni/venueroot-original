@@ -1,0 +1,23 @@
+{
+  "provider": "Higgsfield MCP",
+  "mediaProjectId": "899a97ca-fa14-4838-9a90-0f7fafed1501",
+  "opening": {
+    "model": "gpt_image_2_5",
+    "jobId": "e5a6016b-6389-4dd4-931b-9c7a59a2ca3b",
+    "prompt": "Cinematic architectural photograph, wide 16:9 composition. An empty contemporary Saudi Arabian cafe shell, warm sand limestone walls, quiet lime plaster, large rounded arch at center-left, recessed niches, pale travertine floor and late afternoon sunlight from left. Elegant deep olive green steel doorway framing near left edge. Camera eye level 28mm lens looking into room from doorway. Empty floor no furniture yet, realistic buildable space, refined Riyadh hospitality design without cliches. Main architecture concentrated in left 60 percent, right 40 percent quiet warm dark shadow wall for later HTML Arabic headline. No text, no logos, no people, no watermarks. Rich tactile materials, subtle film grain, natural amber light, editorial architecture magazine."
+  },
+  "logo": {
+    "model": "gpt_image_2_5",
+    "jobId": "365f0ec1-0285-49eb-94e6-a60fab3933e1",
+    "prompt": "Design a single refined minimalist geometric logo symbol for VenueRoot, a platform helping Saudi entrepreneurs establish cafes restaurants bakeries. One centered deep forest green #173D32 monoline symbol on plain ivory #F5F1E8 background: a simple architectural rounded doorway with a central stem branching at its base into two subtle root strokes. Highly restrained confident premium architectural identity, uniform thick stroke, balanced geometric proportions, legible small. Flat vector-like appearance with no texture no shadow no gradients. Symbol only, no words no letters no mockup no labels. Generous clear space."
+  },
+  "video": {
+    "model": "seedance_2_5",
+    "jobId": "15e9f29e-8ec8-4947-ba49-e3dd99495a20",
+    "startImageJobId": "e5a6016b-6389-4dd4-931b-9c7a59a2ca3b",
+    "duration": 12,
+    "resolution": "720p",
+    "audio": false,
+    "prompt": "One continuous cinematic architectural shot, absolutely no cuts. Begin exactly in the supplied empty warm Saudi cafe interior, preserving the stone arches, materials, lighting and layout. 0-2 seconds: gentle slow dolly toward the arch, empty room holds. 2-6 seconds: elegant architectural assembly timelapse in this SAME space, a travertine coffee counter, compact espresso machine, walnut tables and olive chairs rise and settle into physically plausible positions on the LEFT and CENTER, no people. 6-9 seconds: smooth sideways camera move past the nearby green door jamb / warm stone pillar so its close-up surface fills the ENTIRE screen, fully occluding both the previous empty area and final cafe, no other space visible during this passage. 9-12 seconds: clear the jamb smoothly, revealing the SAME coherent completed boutique Saudi cafe, warm pendant lights, chairs and coffee counter with steam from a cup. Finish with a slow settling camera. Warm golden light, refined editorial realism. Keep right third relatively quiet/shadowed for later Arabic HTML text, but generate NO text, NO signage, NO captions, NO logos or overlays. Main subject centered-left survives portrait crop. Motion should be slow, smooth, reversible for scroll scrubbing. No flicker, no people, no abrupt camera direction changes."
+  }
+}
