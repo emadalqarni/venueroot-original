@@ -1,0 +1,10 @@
+{
+  "count": 241,
+  "width": 1280,
+  "height": 720,
+  "fps": 20,
+  "pattern": "assets/frames/frame-{index}.webp",
+  "poster": "assets/opening.webp",
+  "duration": 12.05,
+  "totalBytes": 6907246
+}
